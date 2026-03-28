@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* NAV */
+header {
+    background: #a25c5c;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+/*Inicio*/
+.Inicio { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/* SECCIONES */
+.seccion {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* CARTA */
+.carta {
+    background: rgba(241, 181, 219, 0.374);
+    max-width: 750px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 100px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+/* BLOQUES */
+.bloque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* IMÁGENES */
+.img-lado {
+    width: 150px;
+    border-radius: 15px;
+}
+
+.img-lado:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* DECORACIÓN */
+.decoracion1 {
+    width: 300px;
+    position: absolute;
+}
+.decoracion2 {
+    width: 160px;
+    position: center;
+    border-radius: 80px
+}
+.arriba {
+    top: 10px;
+    left: 10px;
+}
+
+.abajo {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* BOTONES */
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #ff4d6d;
+    color: white;
+}
+
+button:hover {
+    background: #ff1e4d;
+}

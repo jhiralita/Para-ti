@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>My Love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#carta">Carta</a></li>
+            <li><a href="#preguntas">Preguntas</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- INICIO -->
+<section id="inicio" class="seccion">
+    <h1> 💕 MI NIÑO</h1>
+    <p>Este pequeño detalle esta hecho para ti, espero que te guste mucho.</p>
+    <img src="https://i.pinimg.com/736x/d8/2a/9e/d82a9e06682efa47de71f701cad460d3.jpg" class="inicio arriba">
+    <p>Si no te gusta abajo tienes preguntas para que puedas responder hay mismo</p>
+</section>
+
+<!-- CARTA -->
+<section id="carta" class="seccion carta">
+
+    <h2>My Girl ☁️</h2>
+
+    <!-- DECORACIONES -->
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/009/596/747/small/rose-flower-and-botanical-leaf-digital-painted-png.png" class="decoracion1 arriba">
+    
+
+    <p>
+        Tus ojitos son los más lindos que he visto, podría estar horas y horas contemplándolos,
+        es un sueño verlos de cerca y yo ya tuve ese sueño.
+    </p>
+
+    <div class="bloque">
+        <img src="https://i.pinimg.com/564x/0c/4a/1b/0c4a1b8b7d2f8e6b9a3b6a3c9d8c9b7f.jpg" class="img-lado">
+        <p>
+            Estar a tu lado es maravilloso y saber que estás aquí, a mi lado es aún más hermoso
+            de lo que pensaba. Gracias por cada sonrisa y momentos inolvidables.
+        </p>
+    </div>
+
+    <div class="bloque">
+        <p>
+            Porque lo importante nunca es lo material, sino lo que una persona te puede dar.
+            Mi corazón es tuyo y lo que siento por ti es lo más lindo que he vivido.
+        </p>
+        <img src="https://i.pinimg.com/564x/8f/3a/2e/8f3a2e9d7f6a4c1d9b3e8a1b2c3d4e5f.jpg" class="img-lado">
+    </div>
+
+    <p class="final">
+        Te amo, te extraño y te necesito ❤️
+    </p>
+    <img src="https://i.pinimg.com/1200x/57/1d/61/571d612946ec0c51d55d9b7b6700afc2.jpg" class="decoracion2 abajo">
+
+</section>
+
+<!-- PREGUNTAS -->
+<section id="preguntas" class="seccion">
+    <h2>Preguntas 💌</h2>
+
+    <div class="pregunta">
+        <p>¿Me quieres? 💖</p>
+        <button onclick="res('💖 Yo también te quiero')">Sí</button>
+        <button onclick="res('😡 Esa no era opción')">No</button>
+    </div>
+
+    <div class="pregunta">
+        <p>¿Quieres estar conmigo siempre? 💫</p>
+        <button onclick="res('💍 Sabía que dirías eso')">Sí</button>
+        <button onclick="res('😢 Inténtalo otra vez')">No</button>
+    </div>
+
+    <p id="respuesta"></p>
+</section>
+
+<script>
+function res(texto){
+    document.getElementById("respuesta").innerText = texto;
+}
+</script>
+
+</body>
+</html>
